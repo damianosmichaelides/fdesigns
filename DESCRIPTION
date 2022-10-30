@@ -1,0 +1,12 @@
+Package: fdesigns
+Type: Package
+Title: Optimal experimental designs for functional models depending on profile factors using the coordinate exchange algorithm
+Version: 1.0
+Date: 2022-08-22
+Author: Damianos Michaelides
+Maintainer: Damianos Michaelides <dm3g15@soton.ac.uk>
+Description: Optimal experimental designs for functional linear and functional generalised linear models, for scalar responses and profile/dynamic factors. The designs are optimised using the coordinate exchange algorithm. 
+License: GPL-2
+Imports: Rcpp, Matrix, parallel, mvQuad, mvtnorm
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.2.1
